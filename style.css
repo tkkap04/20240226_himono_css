@@ -1,0 +1,54 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.header__logo{
+    margin: 15px 20px;
+    font-size: 2vw;
+    font-weight: bold;
+    color: #019
+}
+.header__nav-list{
+    width: 25vw;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    color: #019;
+    font-weight: bold;
+    margin-right: 40px;
+}
+.header__nav-item{
+    font-size: 1vw;
+}
+.main{
+    position: relative;
+}
+.main__img img{
+    position: absolute;
+    top: 5vw;
+    right: 0;
+    width: 50vw;
+    display: block;
+    z-index: 10;
+}
+.main__left{
+    position: absolute;
+    top: 25vw;
+    z-index: 1;
+}
+.main__theme{
+    font-size: 5vw;
+    font-weight: 100;
+    margin: 0;
+}
+.box{
+    width: 75vw;
+    height: 12vw;
+    background-color: #019;
+    margin-bottom: 5vw;
+}
